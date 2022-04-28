@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lucida Console",monospace;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    overflow: auto;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(160, 67, 67, 0.6),rgba(78, 23, 23, 0.6)),url(https://i.pinimg.com/originals/8f/c5/3f/8fc53fc5d0336c5eec2921c0033e33fc.png);
+    background-size: cover;
+    background-position: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 3vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 2.3vw;
+}
+span{
+    color: #ea1538;
+}
+#below-name{
+    color: blue;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 1vw 1.7vw;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bol;
+
+}
+nav ul li a:hover{
+    transition: .4s;
+    color: #ea1538;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+h1{
+    color:white;
+    font-size: 9vh;
+    font-family: 'Montserrat', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+    margin-bottom: 1vw;
+}
+h3{
+    color:white;
+    font-size: 9vh;
+    font-family: 'Montserrat', sans-serif;
+    /* text-transform: uppercase; */
+    font-weight: 900;
+    letter-spacing: 0.2vw;
+}
+p{
+    /* margin-bottom is the gap between the paragraph text and Khawaja */
+    margin-bottom: 3vh;
+    color: white;
+    font-size: 2vh;
+    line-height: 1.7;
+    font-weight: 500;
+}
+button{
+    background: #ea1538;
+    padding: 1vw, 2.3vw;
+    border: 1vh solid transparent;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.7vh;
+    font-weight: bold;
+}
+button:hover{
+    border: 1.5vh solid #ea1538;
+    color: white;
+    cursor: pointer;
+}
+
+.about-me{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(252, 222, 186);
+}
+#about-me-header{
+    color: black;
+    font-family: "Lucida Console",monospace;
+}
+
+img{
+    border-radius: 40%;
+    width: 25%;
+}
+#courses-header{
+    color: black;
+    font-family: "Lucida Console",monospace;
+}
+.Courses{
+    /* background: -webkit-linear-gradient(to right, #0082c8, #0082c8, #0082c8, #0082c8);  */
+    /* background: linear-gradient(to right, #0082c8, #0082c8, #0082c8, #0082c8);  */
+    background-color: beige;
+}
+#courses-table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #courses-table td, #courses-table th {
+    border: 1vh solid #ddd;
+    padding: 1vh;
+  }
+  
+  #courses-table tr:hover {background-color: #ddd;}
+  
+  #courses-table th {
+    padding-top: 1.3vh;
+    padding-bottom: 1.3vh;
+    text-align: left;
+    background-color: #0082c8;
+    color: white;
+  }
+  /* For second table */
+  
+.cv{
+background-color:rgb(250, 237, 187);
+}
+#cv-header{
+    color: black;
+    font-family: "Lucida Console",monospace;
+}
+#list{
+    font-size: 20vh;
+}
+
+
+@media screen and (max-width: 800px) {
+    nav ul li a{
+        font-size: 1.5vh;
+        display: inline-block;
+        
+    }
+    .logo{
+        font-size: 1.6vh;
+    }
+  
+
+}
